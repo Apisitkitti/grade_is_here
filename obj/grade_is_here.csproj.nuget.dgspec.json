@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MDT211\\grade_is_here\\grade_is_here.csproj": {}
+    "C:\\Users\\MDT\\Desktop\\W4\\grade_is_here\\grade_is_here.csproj": {}
   },
   "projects": {
-    "E:\\MDT211\\grade_is_here\\grade_is_here.csproj": {
+    "C:\\Users\\MDT\\Desktop\\W4\\grade_is_here\\grade_is_here.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MDT211\\grade_is_here\\grade_is_here.csproj",
+        "projectUniqueName": "C:\\Users\\MDT\\Desktop\\W4\\grade_is_here\\grade_is_here.csproj",
         "projectName": "grade_is_here",
-        "projectPath": "E:\\MDT211\\grade_is_here\\grade_is_here.csproj",
-        "packagesPath": "C:\\Users\\iam-o\\.nuget\\packages\\",
-        "outputPath": "E:\\MDT211\\grade_is_here\\obj\\",
+        "projectPath": "C:\\Users\\MDT\\Desktop\\W4\\grade_is_here\\grade_is_here.csproj",
+        "packagesPath": "C:\\Users\\MDT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MDT\\Desktop\\W4\\grade_is_here\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\iam-o\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
