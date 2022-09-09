@@ -3,6 +3,7 @@ class Program
 {
     public static void Main(string[] args)
     {
+        Grade grade = new Grade();
         User data = new User();
         Console("Name : ");
         data.Name = Console.ReadLine();
@@ -11,7 +12,8 @@ class Program
         Consoel.Write("ID : ");
         data.ID = StringToLong(Console.ReadLine());
         Console.Write("Score : ");
-        data.Score = StringToInt(Console.ReadLine());
+        grade.Score = StringToInt(Console.ReadLine());
+        User.PrintInputInformation();
     }
     public static int StringToInt(string value)
     {
