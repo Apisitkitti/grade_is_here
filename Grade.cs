@@ -1,15 +1,17 @@
 ﻿using System;
 public class Grade
 {
-    int score;
-    string GradeInput ;
-    string Grade_Alphabet;
+    public int score;
+    public string GradeInput ;
+    public string Grade_Alphabet;
+    
     public Grade(int score)
     {
 
         score = ConvertStringtoINt( PlsInput_Score());
         this.score = score;
         this.Grade_Alphabet = Grade_String(score);
+    
     }
     public static string PlsInput_Score()
     {
