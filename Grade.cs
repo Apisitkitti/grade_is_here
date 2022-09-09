@@ -2,13 +2,21 @@
 public class Grade
 {
     int score;
-    string GradeOutput ;
+    string GradeInput ;
+    string Grade_Alphabet;
     public Grade(int score)
     {
+
+        score = ConvertStringtoINt( PlsInput_Score());
         this.score = score;
-
-
+        this.Grade_Alphabet = Grade_String(score);
     }
+    public static string PlsInput_Score()
+    {
+       Console.Write("Pls input your score");
+       return Console.ReadLine();
+    }
+
     public static int ConvertStringtoINt(string Input_value)
     {
         if(int.TryParse(Input_value,out int number))
@@ -19,6 +27,8 @@ public class Grade
     }
     public static string Grade_String(int score)
     {
+        if(score>100)throw new Exception("Pls input again");
+        
         if(IsGradeA(score))
         {
             return "A";
@@ -37,8 +47,22 @@ public class Grade
         }
          else if(IsGradeCPlus(score))
         {
+            return "C+";
+        }
+        else if(IsGradeC(score))
+        {
             return "C";
         }
+         else if(IsGradeDPlus(score))
+        {
+            return "D+";
+        }
+         else if(IsGradeD(score))
+        {
+            return "D";
+        }
+        else return "F";
+
 
     }
     

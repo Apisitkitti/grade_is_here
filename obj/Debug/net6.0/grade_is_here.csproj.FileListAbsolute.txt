@@ -1,0 +1,5 @@
+E:\MDT211\grade_is_here\obj\Debug\net6.0\grade_is_here.csproj.AssemblyReference.cache
+E:\MDT211\grade_is_here\obj\Debug\net6.0\grade_is_here.GeneratedMSBuildEditorConfig.editorconfig
+E:\MDT211\grade_is_here\obj\Debug\net6.0\grade_is_here.AssemblyInfoInputs.cache
+E:\MDT211\grade_is_here\obj\Debug\net6.0\grade_is_here.AssemblyInfo.cs
+E:\MDT211\grade_is_here\obj\Debug\net6.0\grade_is_here.csproj.CoreCompileInputs.cache
